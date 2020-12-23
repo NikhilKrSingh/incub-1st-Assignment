@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>LOGIN Form </title>
+<!-- add Javasscript file from js file -->
+<link rel="stylesheet" type="text/css" href="css/design.css">
+
+
+
+</head>
+<body >
+
+<h2>Login Form</h2>
+<div class="container">
+<form onsubmit ="return validateForm()">
+  
+ <!-- Enter first name -->  
+<center><label for="uname"><b>User Name : </label>
+<input type = "text" placeholder="Enter User Name" id = "uname" value = "" required>   <br><br>
+<span id = "blankMsg" style="color:red"> </span></center> <br> 
+  
+ 
+  
+<!-- Create a new password -->  
+<center><label for="password"><b>Password : </label>  
+<input type = "password" placeholder="Enter Password" id = "pswd1" value = "" required>  <br> <br>
+<span id = "message1" style="color:red"> </span></center> <br> 
+  
+<!--Enter confirm password -->  
+<center> <label for="confirmPassword"><b> Confirm Password : </label>
+<input type = "password" placeholder="Enter Password" id = "pswd2" value = ""required>   <br><br>
+<span id = "message2" style="color:red"> </span></center> <br>  
+  </div>
+<!-- Click to verify valid password -->  
+
+<center><input type = "submit" value = "Submit"> </center> 
+    
+  </div></center>
+
+
+</form>
+
+<!-- add Javasscript file from js file -->
+<script type="text/javascript" src='js/new.js'></script>
+
+</body>
+</html>
